@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Мои Контакты</string>
+    <string name="call_fab">Позвонить контакту</string>
+    <string name="sms_fab">Написать сообщение</string>
+    <string name="name_mtv">Имя контакта</string>
+    <string name="phone_mtv">+7 999 888 77 66</string>
+    <string name="addressee_tv">Кому:</string>
+    <string name="text_et">Введите сообщение</string>
+    <string name="send_btn">Отправить сообщение</string>
+</resources>
