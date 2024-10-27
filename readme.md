@@ -72,3 +72,6 @@
 видео экрана при работе приложения.
 
 ## Видео к домашнему заданию по теме "ContentProvider"
+
+[moi_contacty-ezgif.com-video-speed.webm](https://github.com/user-attachments/assets/7209d4c3-22ba-43b6-92ab-4cf1c69cd45a)
+
