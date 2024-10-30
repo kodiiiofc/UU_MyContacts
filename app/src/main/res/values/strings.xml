@@ -7,4 +7,10 @@
     <string name="addressee_tv">Кому:</string>
     <string name="text_et">Введите сообщение</string>
     <string name="send_btn">Отправить сообщение</string>
+    <string name="search_hint">Поиск по контактам</string>
+    <string name="menu_search">Поиск по контактам</string>
+    <string name="menu_exit">Выйти из приложения</string>
+    <string name="add_contact_fab">Добавить контакт</string>
+    <string name="new_name_et">Введите имя контакта</string>
+    <string name="new_phone_et">Введите номер телефона</string>
 </resources>

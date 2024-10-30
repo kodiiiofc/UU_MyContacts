@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
 
     <dist:module dist:instant="true" />
 
@@ -22,13 +23,22 @@
         tools:targetApi="31">
         <activity
             android:name=".presentation.MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
         </activity>
+        <provider android:name=".presentation.MySuggestionProvider"
+            android:authorities="ru.phpnick.MySuggestionProvider"
+            android:exported="false" />
         <activity android:name=".presentation.MessengerActivity"
             android:exported="false"/>
     </application>
